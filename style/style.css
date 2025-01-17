@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sixtyfour&display=swap');
+
+body {
+    font-family: "Roboto Serif", serif;
+    background-color: #1A1B1D;
+}
+
+h1 {
+    font-family: "Sixtyfour", serif;
+    color: #fff;
+    text-shadow: 2px 2px #1A1B1D;
+    font-size: 4vw;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+}
+
+.subheader {
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    background-color: #C45217;
+    box-shadow: 0 -6px 20px 2px rgba(255,255,255,0.8);
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-bottom: 20px;
+}
+
+.navlink {
+    color: #fff;
+    text-shadow: 2px 2px #1A1B1D;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    color: #CCCCCC;
+}
+
+.navlink:first-child {
+    padding-right: 20px
+}
+
+.navlink:not(:first-child):not(:last-child) {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navlink:last-child {
+    padding-left: 20px
+}
+
+.row {
+    width: 100%;
+    padding: 10px 20vw;
+}
+
+.fern-row {
+    background-color: #DB1F70;
+}
+
+.fleece-row {
+    background-color: #80E31E;
+}
+
+.image-col, .text-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image-col img {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.banner-col {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-col img {
+    height: 100px;
+    margin-bottom: 30px;
+}
